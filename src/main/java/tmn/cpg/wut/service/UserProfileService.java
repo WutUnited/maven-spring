@@ -15,6 +15,7 @@ public class UserProfileService {
 	
 	@Transactional
 	public UserProfile getUserProfile(String name){
+		//Test Merge Branch
 		UserProfile userProfile = userProfileDao.findByUserName(name);
 		return userProfile;
 	}
