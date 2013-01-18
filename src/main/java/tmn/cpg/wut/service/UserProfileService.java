@@ -15,8 +15,6 @@ public class UserProfileService {
 	
 	@Transactional
 	public UserProfile getUserProfile(String name){
-		//Comment for test merge brance
-		//Comment for test merge brance 2
 		UserProfile userProfile = userProfileDao.findByUserName(name);
 		return userProfile;
 	}
